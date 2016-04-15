@@ -4,7 +4,7 @@ var tripOne = {
     name: "Tokyo, Japan",
 	description: "Visit the capital of Japan and enjoy the bustling city.",
 	price: "15,000.00",
-	url: "img/tokyo.jpeg"
+	url: "img/tokyo.jpg"
 }
 
 var tripTwo = {
