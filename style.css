@@ -40,6 +40,9 @@ nav a {
   color: #5499BD;
 }
 
+/*************************************************
+                BASE PAGE LAYOUTS
+*************************************************/
 
 
 /*main content div on all pages except home page*/
@@ -48,6 +51,12 @@ nav a {
   margin-top: 10%;
 }
 
+
+/*************************************************
+                  HOME PAGE
+*************************************************/
+
+
 /*background image for home page*/
 #homeMainDiv {
   background-image: url(img/backgroundBeach.jpg);
@@ -55,6 +64,7 @@ nav a {
   height: 75%;
 }
 
+/*main titles on the home page*/
 #homeMainDiv h1,
 #homeMainDiv h2{
   text-align: center;
@@ -72,8 +82,57 @@ nav a {
   font-size: 2em;
 }
 
+
 /*************************************************
-                  FOOTER
+                    CARDS
+*************************************************/
+
+.trip {
+  display: inline-block;
+  width: 30%;
+  margin: 1.5%;
+  text-align: center;
+  border: 2px solid #5499BD;
+  border-radius: 2em;
+  box-shadow: 10px 10px 10px #9BC2CF;
+}
+
+
+/*card titles*/
+.trip h1 {
+  font-weight: bold;
+  font-size: 200%;
+}
+
+/*card images*/
+.trip img {
+  height: 50%;
+  width: 50%;
+  border-radius: 2em;
+  margin: 5% 0 2.5%;
+}
+
+/*card descriptions*/
+.trip :nth-child(3) {
+margin-bottom: 5%;
+}
+
+/*card prices*/
+.trip :nth-child(4) {
+  font-weight: bold;
+  font-size: 150%;
+}
+#productContent {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+
+
+
+
+/*************************************************
+                    FOOTER
 *************************************************/
 
 #footerInfo {
@@ -81,6 +140,7 @@ nav a {
   position: fixed;
   bottom: 0;
   right: 0;
-  padding-top: 10px;
+  padding: 20px 5px 0;
   color: #c4c4c4;
+  font-size: 50%;
 }
