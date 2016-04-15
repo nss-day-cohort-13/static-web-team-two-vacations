@@ -1,0 +1,66 @@
+/*************************************************
+                  BASE STYLES
+*************************************************/
+
+/*imports styles from google fonts*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', Arial, serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+  height: 95%;
+  background-color: whitesmoke;
+}
+
+/*************************************************
+                  NAVIGATION
+*************************************************/
+
+
+nav {
+  height: 5%;
+  text-align: center;
+  padding-top: 4px;
+  background-color: #646464;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 150%;
+  padding: 0 2.5%;
+  color: #5499BD;
+}
+
+.mainContent {
+  height: 75%;
+  margin: 10% 0;
+}
+
+#homeMainDiv {
+  background-image: url(img/backgroundBeach.jpg);
+  margin: 5% 0;
+}
+
+
+
+/*************************************************
+                  FOOTER
+*************************************************/
+
+#footerInfo {
+  height: 5%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-top: 10px;
+  color: #c4c4c4;
+}
