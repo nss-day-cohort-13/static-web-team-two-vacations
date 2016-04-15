@@ -40,13 +40,28 @@ nav a {
   color: #5499BD;
 }
 
+/*************************************************
+                BASE PAGE LAYOUTS
+*************************************************/
 
 
 /*main content div on all pages except home page*/
 .mainContent {
   height: 75%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
+
+.mainContent > h1 {
+  text-align: center;
+  border: 2px solid red;
+  background-color: ;
+}
+
+
+/*************************************************
+                  HOME PAGE
+*************************************************/
+
 
 /*background image for home page*/
 #homeMainDiv {
@@ -55,6 +70,7 @@ nav a {
   height: 75%;
 }
 
+/*main titles on the home page*/
 #homeMainDiv h1,
 #homeMainDiv h2{
   text-align: center;
@@ -72,8 +88,60 @@ nav a {
   font-size: 2em;
 }
 
+
 /*************************************************
-                  FOOTER
+                    CARDS
+*************************************************/
+
+.trip {
+  display: inline-block;
+  width: 27.333%;
+  margin: 1.5% 3%;
+  text-align: center;
+  border: 2px solid #5499BD;
+  border-radius: 2em;
+  box-shadow: 10px 10px 10px #9BC2CF;
+  background-color: #C6E5F0;
+}
+
+
+/*card titles*/
+.trip h1 {
+  font-weight: bold;
+  font-size: 200%;
+  margin-top: 2.5%;
+}
+
+/*card images*/
+.trip img {
+  height: 50%;
+  width: 50%;
+  border-radius: 2em;
+  margin: 5% 0 1.75%;
+}
+
+/*card descriptions*/
+.trip :nth-child(3) {
+margin-bottom: 2.5%;
+}
+
+/*card prices*/
+.trip :nth-child(4) {
+  font-weight: bold;
+  font-size: 150%;
+  margin-bottom: 5%;
+}
+#productContent {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+
+
+
+/*************************************************
+                    FOOTER
 *************************************************/
 
 #footerInfo {
@@ -81,6 +149,7 @@ nav a {
   position: fixed;
   bottom: 0;
   right: 0;
-  padding-top: 10px;
+  padding: 20px 5px 0;
   color: #c4c4c4;
+  font-size: 50%;
 }
