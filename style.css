@@ -40,17 +40,37 @@ nav a {
   color: #5499BD;
 }
 
+
+
+/*main content div on all pages except home page*/
 .mainContent {
   height: 75%;
-  margin: 10% 0;
+  margin-top: 10%;
 }
 
+/*background image for home page*/
 #homeMainDiv {
   background-image: url(img/backgroundBeach.jpg);
   margin: 5% 0;
+  height: 75%;
 }
 
+#homeMainDiv h1,
+#homeMainDiv h2{
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px 6px #000;
+}
 
+#homeMainDiv h1 {
+  font-size: 4em;
+  padding: 10% 0 3%;
+
+}
+
+#homeMainDiv h2 {
+  font-size: 2em;
+}
 
 /*************************************************
                   FOOTER
