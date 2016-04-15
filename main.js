@@ -29,7 +29,7 @@ var tripFour = {
 }
 
 var tripFive = {
-    name: "Bora Bora, French Polynesia",
+    name: "Bora Bora",
 	description: "Enjoy the black sand beaches and get that stranded on an island feel.",
 	price: "22,000.00",
 	url: "img/borabora2.jpg"
