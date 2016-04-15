@@ -64,7 +64,7 @@ nav a {
 
 /*targets the text area of pages*/
 .mainContent > article {
-  margin-top: 5%;
+  margin: 5% 3% 0;
   border: 2px solid #5499BD;
   border-radius: 2em;
   box-shadow: 10px 10px 10px #9BC2CF;
@@ -109,6 +109,7 @@ nav a {
                     CARDS
 *************************************************/
 
+/*whole card*/
 .trip {
   display: inline-block;
   width: 27.333%;
@@ -118,7 +119,10 @@ nav a {
   border-radius: 2em;
   box-shadow: 10px 10px 10px #9BC2CF;
   background-color: #C6E5F0;
+  height: 350px;
+  vertical-align: top;
 }
+
 
 
 /*card titles*/
@@ -126,12 +130,13 @@ nav a {
   font-weight: bold;
   font-size: 150%;
   margin-top: 2.5%;
+  padding: 0 10px;
 }
 
 /*card images*/
 .trip img {
-  height: 50%;
-  width: 50%;
+  height: 142px;
+  width: 142px;
   border-radius: 2em;
   margin: 5% 0 1.75%;
 }
@@ -146,7 +151,8 @@ padding: 0 5%;
 .trip :nth-child(4) {
   font-weight: bold;
   font-size: 200%;
-  margin-bottom: 5%;
+  vertical-align: bottom;
+  /*margin-bottom: 5%;*/
 }
 
 
